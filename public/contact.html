@@ -45,7 +45,7 @@
       margin-bottom: 10px;
       border: 1px solid #ccc;
       border-radius: 4px;
-      box-sizing: border-box; 
+      box-sizing: border-box;
     }
 
     .button-container {
@@ -77,6 +77,23 @@
       padding: 8px 16px;
       border-radius: 4px;
     }
+
+    p {
+      margin-bottom: 5px;
+    }
+
+    p b {
+      font-weight: bold;
+    }
+
+    .company-link {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .company-link:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 
@@ -84,13 +101,16 @@
   <div class="container">
     <!-- Back Home button -->
     <a class="back-home" href="../index.html">Back</a>
-    
-    <h3>Contact Me:</h3>
-    <p>Mobile: <strong>+91 954321XX55</strong></p>
-    <p>E-mail: <strong>arulmurugansv2@gmail.com</strong></p>
+
+    <h4>Contact Information:</h4>
+    <p><b>Mobile:</b> +91 954321XX55</p>
+    <p><b>E-mail:</b> arulmurugansv2@gmail.com</p>
+    <p><b>Company E-mail:</b> arul@sansten.com</p>
+    <p><b>Company Website-1:</b> <a href="https://sansten.com/" class="company-link">https://sansten.com/</a></p>
+    <p><b>Company Website-2:</b> <a href="https://drake.sansten.com" class="company-link">https://drake.sansten.com</a></p>
     <br>
 
-    <h3>Callback You:</h3>
+    <h4>Callback You:</h4>
     <form id="contactForm" action="#" method="post">
       <label>Name:</label>
       <input type="text" name="My Name" value=""><br>
