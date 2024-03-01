@@ -26,14 +26,14 @@
   h1 {
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
-    font-size: 5.625rem;
+    font-size: 5rem;
     color: var(--accent-color);
   }
   
   h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: var(--accent-color);
     padding: 10px;
   }
@@ -62,8 +62,8 @@
     /* background-color: var(--background-color); */
     position: relative;
     padding-top: 100px;
-    padding-bottom: 350px;
-    background-image: url('/assets/images/wave.jpg');
+    padding-bottom: 200px;
+    background-image: url('My-Website/assets/images/wave.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -164,7 +164,7 @@
   }
   
   .nav-link {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--nav-link-color) !important;
     font-family: "Montserrat-light";
   }
