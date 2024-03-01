@@ -81,7 +81,7 @@ ul {
 
 /* Banner */
 .gradient-banner {
-  background-image: url('/My_Site/public/Resume/images/banner-bg.jpg');
+  background-image: url('../../Resume/images/banner-bg.jpg');
   background-size: 120% 120%;
   background-position: center;
   animation: gradient-banner-animation 10s ease infinite;
