@@ -41,6 +41,7 @@
   h3 {
     font-family: 'Montserrat', sans-serif;
     color: var(--secondary-color);
+    margin-bottom: 1rem;
   }
   
   p {
@@ -97,29 +98,34 @@
     padding: 20px 0 10px 0;
   }
    
-  .pro{
+  .ai-text {
     color: rgb(250, 46, 46);
     font-family: Helvetica, Arial, sans-serif;
   }
-  
-  .intro{
+
+  .profile-image {
+    padding-bottom: 50px;
+  }
+
+  .intro {
     width: 30%;
     margin:auto;
+    font-style: italic;
   }
   
-  .skill-row{
-    width: 50%;
-    margin: 100px auto 100px auto;
+  .skill-rows {
+    width: 60%;
+    margin: 50px auto 70px auto;
     text-align: left;
   }
   
-  .ai-image{
+  .ai-image {
     width: 25%;
     float: left;
     margin-right: 25px;
   }
   
-  .webdev-image{
+  .webdev-image {
     width: 25%;
     float: right;
     margin-right: 25px;
