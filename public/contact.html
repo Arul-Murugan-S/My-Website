@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      position: relative;
+      width: 50%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h3 {
+      color: #666;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="datetime-local"],
+    textarea {
+      width: 70%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    input[type="submit"] {
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    /* Styles for the back home button */
+    .back-home {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      text-decoration: none;
+      color: #333;
+      background-color: #f4f4f4;
+      padding: 8px 16px;
+      border-radius: 4px;
+    }
+
+    p {
+      margin-bottom: 5px;
+    }
+
+    p b {
+      font-weight: bold;
+    }
+
+    .company-link {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .company-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Back Home button -->
+    <a class="back-home" href="../index.html">Back</a>
+
+    <h3>Contact Me:</h3>
+    <p><b>Mobile:</b> +91 954321XX55</p>
+    <p><b>E-mail:</b> arulmurugansc@gmail.com</p>
+    <p><b>Company E-mail:</b> arul@sansten.com</p>
+    <p><b>Company Website-1:</b> <a href="https://sansten.com/" class="company-link">https://sansten.com/</a></p>
+    <p><b>Company Website-2:</b> <a href="https://drake.sansten.com" class="company-link">https://drake.sansten.com</a></p>
+    <br>
+
+    <h3>Callback You:</h3>
+    <form id="contactForm" action="#" method="post">
+      <label>Name:</label>
+      <input type="text" name="My Name" value=""><br>
+      <br>
+      <label>Contact No.:</label>
+      <input type="email" name="My E-mail" value=""><br>
+      <br>
+      <label>E-mail:</label>
+      <input type="email" name="My E-mail" value=""><br>
+      <br>
+      <label>Available Date & Time:</label>
+      <input type="datetime-local" name="Prefered Date and Time to reach me"><br>
+      <br>
+      <label>Leave a Message:</label>
+      <textarea name="message" placeholder="Type your message here..." rows="4" cols="20"></textarea>
+      <div class="button-container">
+        <input type="submit" name="" value="Send Your Message" onclick="showAlert()">
+      </div>
+    </form>
+  </div>
+
+  <script>
+    function showAlert() {
+      alert("Sorry, unable to send email directly. Please use regular email methods instead.");
+    }
+  </script>
+</body>
+
+</html>
