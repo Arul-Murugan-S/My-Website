@@ -1,0 +1,126 @@
+body{ 
+  background-color: #dbfdf9;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding: 0;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #5eff00;
+  border-width: 3px;
+  width: 5%;
+  margin: 0 auto;
+ }
+
+h3 {
+  color: #c525b2;
+  margin-top: 20px !important;
+  margin-bottom: 2px !important;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+/* Navbar */
+.nav-item {
+  padding: 0 5px;
+}
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat-light"
+}
+.navbar-toggler-icon {
+  font-size: 1.5rem; 
+  color: white !important; 
+}
+
+.navbar-toggler {
+  background-color: transparent !important;
+  border: none; 
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+.dropdown-menu {
+  background-color: #9cf8f4; 
+  --bs-dropdown-min-width: auto !important;
+}
+.dropdown-item {
+  padding: 2px 6px !important; 
+  margin: 2px 2px !important;
+}
+.dropdown-item:hover {
+  background-color: #040500;
+  color: #ffffff;
+  transition: all 0.3s ease; 
+}
+
+/* horizotal lines gradient */
+.gradient-background {
+  background: linear-gradient(300deg, #4547d6, #ce2a76, #160449ef);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Banner */
+.gradient-banner {
+  background-image: url('../../Resume/images/banner-bg.jpg');
+  background-size: 120% 120%;
+  background-position: center;
+  animation: gradient-banner-animation 10s ease infinite;
+}
+
+@keyframes gradient-banner-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-auto {
+    text-align: center;
+    align-self: center;
+    margin: 1px !important;
+    padding: 0;
+  }
+  .row {
+    display: inline !important;
+  }
+  .profile-img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 0 !important;
+  }
+  .profile-skill, .profile-name {
+    margin-bottom: 0px !important;
+  }
+  .navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+

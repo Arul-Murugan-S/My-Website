@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arul Murugan S - CV</title>
+  
+<!-- bootstrap css and custom css stylesheets -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+<link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+  <!-- Profile -->
+  <div class="container-md rounded mb-4 position-relative gradient-banner">
+    <div class="row align-items-center">
+      <div class="col-auto mx-3 my-3">
+        <img class="profile-img" src="./images/arul.png" alt="Arul Murugan S image" height="150" width="150"/>
+      </div>
+      <div class="col-auto align-self-center mx-3 mt-3 text-center">
+        <h1 class="profile-name text-white h1"><strong>ARUL MURUGAN S</strong></h1>
+        <p class="profile-skill text-light"> ML | NLP | GenAI | LLMs | RAG </p>
+        <p class="profile-skill text-light">
+          <em><strong>Web</strong></em>site<em><strong> Dev</strong></em>elopment
+        </p>      
+      </div>
+    </div>
+  
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-* position-absolute top-0 end-0">
+      <div class="container-fluid align-self-end">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white"  aria-current="page" href="../../index.html">Back</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://drake.sansten.com/">AI-Drake</a></li>
+                <li><a class="dropdown-item" href="../TinDog1/index.html">W-TinDog1</a></li>
+                <li><a class="dropdown-item" href="../TinDog2/index.html">W-TinDog2</a></li>
+                <li><a class="dropdown-item" href="https://react-frontend-note.netlify.app">W-Note</a></li>
+                <li><a class="dropdown-item" href="https://react-full-stack-login.netlify.app/">W-FSD</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+  <!-- About -->
+  <div class="container-md">
+  <h3>Profile</h3>
+  <div class="row">
+    <div class="col-md-8 gradient-background rounded-pill">
+      <hr>
+    </div>
+  </div>
+    <div class="row my-2">
+      <div class="col-md-12">
+        <ul style="line-height: 2;">
+          <li>
+            <strong>Experienced AI Professional:</strong> Over 2 years of success in Data Analysis, Model Development, and Model Deployment. <br>Specializes in creating innovative solutions for medical imaging and disease detection.
+          </li>
+          <li>
+            <strong>Proficient in Azure Cloud ML:</strong> With a proven track record of deploying models in production environments.
+          </li>
+          <li>
+            <strong>Expertise in UI Development:</strong> Utilizing Streamlit to create user-friendly interfaces for medical professionals.<a style="text-decoration: none;" href="https://drake.sansten.com/"> Link <span class="fas fa-arrow-alt-circle-right"></span></a>
+          </li>
+          <li>
+            <strong>Experience in Teaching Engineering Subjects:</strong> With 12 years of experience as an Assistant Professor.
+          </li>
+          <li>
+            <strong>Electrical and Electronic Assembly:</strong> Over 3 years of experience in assembling UPS units, soldering, <br>testing electronics, troubleshooting, and adhering to safety protocols.
+          </li>
+          <li>
+            <strong>Quick Learner:</strong> With strong analytical, problem-solving, excellent communication, and interpersonal skills.
+          </li>
+          <li>
+            <strong>Committed to staying updated:</strong> With the latest technologies and trends in the industry.
+          </li>
+        </ul>        
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <div class="container-md" id="skills-title">
+    <h3>Skills</h3>
+    <div class="row">
+      <div class="col-md-7 gradient-background rounded-pill">
+        <hr>
+      </div>
+    </div>
+    <div id="skills-table-container" style="display: none;">
+      <ul>
+        <!-- Skills content will be dynamically added here -->
+      </ul>
+    </div>
+  </div>
+
+  <!-- Experiences -->
+  <div class="container-md" id="experience-title">
+    <h3>Experiences</h3>
+      <div class="row">
+        <div class="col-md-6 gradient-background rounded-pill">
+        <hr>
+        </div>
+      </div>
+      <div class="row table-responsive my-2">
+        <div id="experience-table-container" style="display: none;">
+          <table class="table table-stripped table-hover table-condensed" id="expandable-table">
+            <thead>
+              <tr>
+                <th class="">Month & Year</th>
+                <th class="">Job Role</th>
+                <th class="">Company Name</th>
+                <th class="text-center">Year(s)</th>
+                <th class="text-center">Month(s)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-target="hidden-paragraph-1">
+                <td>Apr 2023 - Present</td>
+                <td>Machine Learning Engineer</td>
+                <td>Sansten AI Labs Pvt. Ltd.</td>
+                <td class="text-center">1</td>
+                <td class="text-center">6</td>
+              </tr>
+              <tr>
+                <td colspan="5">
+                  <div class="row hidden-paragraph" id="hidden-paragraph-1" style="display: none;">
+                    <div class="col">
+                      <ul>
+                        <li>Creating Large Language Models based Q&A for Eye disease including the Retrieval Augmented Generation (RAG) using LlamaIndex connecting the MongoDB database, and latest development including the learning from the daily practice from eye hospitals of Sansten’s clients.</li>
+                        <li>Built YOLO v5 and v8 based models to detect Glaucoma, Anterior angle finding using Keypoint detection, CNN-based deep learning models for automated diabetic retinopathy analysis, including image segmentation, classification, and severity prediction. Achieved an accuracy of 95% on the Keypoint detection.</li>
+                        <li>Managed large medical imaging datasets, ensuring data quality, privacy compliance, and efficient preprocessing through image augmentation and normalization techniques.</li>
+                        <li>Built Streamlit user interfaces for model inference, allowing easy access and visualization of results for medical professionals.</li>
+                        <li>Collaborated with ophthalmologists to incorporate domain expertise into model development and interpretation.</li>
+                        <li>Developed additional models for glaucoma detection and anterior key point detection, demonstrating versatility in medical image analysis tasks.</li>
+                        <li>Leveraged transfer learning with pre-trained models for faster model development and prototyping.</li>
+                        <li>Optimized model performance through rigorous hyperparameter tuning (batch size, image size and so on) and evaluation using various classification metrics.</li>
+                        <li>Deployed models in Azure production environments, both on-premises and in the cloud, streamlining the analysis process. The production link is hosted at:<a style="text-decoration: none;" href="https://drake.sansten.com/"> Link <span class="fas fa-arrow-alt-circle-right"></span></a>
+                        <li>Collaborated with medical professionals to integrate their expertise into model development and interpretation, bridging the gap between technical and medical domains.</li>
+                        <li>Created insightful data visualizations to communicate model performance, findings, and key insights to stakeholders.</li>
+                        <li>Maintained a clean and organized codebase using Git for collaborative development and ensured project reproducibility through comprehensive documentation.</li>
+                        <li>Delivered projects on time and within budget, adhering to regulatory compliance and ethical considerations in healthcare AI.</li>
+                    </ul>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr data-target="hidden-paragraph-2">
+                <td>Sep 2022 - Mar 2023</td>
+                <td>Data Analyst</td>
+                <td>Sansten AI Labs Pvt. Ltd.</td>
+                <td class="text-center">0</td>
+                <td class="text-center">7</td>
+              </tr>
+              <tr>
+                <td colspan="5">
+                  <div class="row hidden-paragraph" id="hidden-paragraph-2" style="display: none;">
+                    <div class="col">
+                      <ul>
+                        <li>Worked with senior developers, architects to extract key insights and emerging trends from diverse datasets using pandas, NumPy, and scikit-learn, enabling improved decision-making in clinical trials.</li>
+                        <li>Enhanced data quality for machine learning models by implementing custom Python scripts for data imputation and outlier removal, resulting in a 10% increase in model accuracy.</li>
+                        <li>Collaborated with Hospitals, Labelled and categorized medical image data related to Anterion using CVAT, contributing to the development of a machine learning model for detection.</li>
+                        <li>Implemented bounding box and segmentation annotation techniques to facilitate training of a machine learning model for Glaucoma, achieving 78% accuracy in disease detection.</li>
+                        <li>Collaborated with radiologists and medical professionals to validate and refine image annotations using VGG Image Annotator, ensuring clinical relevance and accuracy for the machine learning model.</li>
+                        <li>Managed annotated image datasets on a secure platform, maintaining data quality and integrity through version control and access control mechanisms, protecting sensitive patient information.</li>
+                        <li>Ensured Health compliance while cleaning and standardizing data, guaranteeing data quality and integrity for downstream analysis.</li>
+                      </ul>                        
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr data-target="hidden-paragraph-3"></tr>
+                <td>Jun 2022 - Aug 2022</td>
+                <td>Artificial Intelligence Internship</td>
+                <td>Pantech ProLabs India Pvt. Ltd.</td>
+                <td class="text-center">0</td>
+                <td class="text-center">3</td>
+              </tr>
+              <tr>
+                <td colspan="5">
+                  <div class="row hidden-paragraph" id="hidden-paragraph-3" style="display: none;">
+                    <div class="col">
+                      <ul>
+                        <li>Python for Data Science</li>
+                        <li>Introduction to Data Analysis</li>
+                        <li>Machine Learning Algorithms</li>
+                        <li>Computer Vision</li>
+                        <li>Deep Learning models</li>
+                        <li>Convolutional Neural Networks</li>
+                        <li>Natural Language Processing</li>
+                      </ul>                       
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr data-target="hidden-paragraph-4">
+                <td>Jun 2010 - May 2022</td>
+                <td>Assistant Professor</td>
+                <td>Vetri Vinayaha College of Engineering & Technology</td>
+                <td class="text-center">12</td>
+                <td class="text-center">0</td>
+              </tr>
+              <tr>
+                <td colspan="5">
+                  <div class="row hidden-paragraph" id="hidden-paragraph-4" style="display: none;">
+                    <div class="col">
+                      <ul>
+                        <li>Teaching Undergraduate Engineering Courses: Deliver lectures, conduct tutorials, and facilitate discussions on engineering subjects at the undergraduate level.</li>
+                        <li>Conducting Laboratory Sessions: Organize and supervise laboratory sessions to reinforce theoretical concepts and practical skills among students.</li>
+                        <li>Developing Course Materials: Create lecture notes, presentations, and lab manuals to supplement the curriculum and aid student learning.</li>
+                        <li>Assessing Student Performance: Evaluate student assignments, projects, and examinations to gauge their understanding and progress.</li>
+                        <li>Mentoring Students: Provide academic guidance, support, and mentorship to students, helping them navigate their academic journey.</li>
+                        <li>Engaging in Research: Pursue scholarly research in their field of expertise, publish research papers, and contribute to academic discourse.</li>
+                        <li>Participating in Academic Committees: Collaborate with colleagues on curriculum development, assessment strategies, and academic policies.</li>
+                        <li>Continuous Professional Development: Stay updated with advancements in engineering education, attend workshops, and engage in professional development activities.</li>
+                        <li>Promoting Industry Collaboration: Foster relationships with industry partners to facilitate internships, projects, and career opportunities for students.</li>
+                        <li>Supporting Institutional Initiatives: Contribute to institutional initiatives aimed at enhancing teaching quality, student success, and academic excellence.</li>
+                      </ul>                        
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr data-target="hidden-paragraph-5">
+                <td>May 2004 - Jun 2007</td>
+                <td>Electronic Assembler</td>
+                <td>Agan Electronics</td>
+                <td class="text-center">3</td>
+                <td class="text-center">2</td>
+              </tr>
+              <tr>
+                <td colspan="5">
+                  <div class="row hidden-paragraph" id="hidden-paragraph-5" style="display: none;">
+                    <div class="col">
+                      <ul>
+                        <li>Assembling UPS (Uninterruptible Power Supply) units and electronic components according to engineering specifications and assembly instructions.</li>
+                        <li>Performing soldering tasks to connect electronic components and wires securely and reliably.</li>
+                        <li>Reading and interpreting technical drawings, diagrams, and blueprints to understand assembly requirements.</li>
+                        <li>Testing assembled electronic products for functionality and quality assurance purposes.</li>
+                        <li>Identifying and troubleshooting assembly issues or defects, and making necessary adjustments or repairs to ensure product integrity.</li>
+                        <li>Operating hand tools, power tools, and electronic testing equipment safely and effectively during the assembly process.</li>
+                        <li>Following strict safety protocols and guidelines to prevent accidents and ensure a safe working environment.</li>
+                        <li>Maintaining cleanliness and organization in the assembly area, including proper storage of tools, components, and materials.</li>
+                        <li>Collaborating with engineering teams and other departments to resolve technical issues and improve assembly processes.</li>
+                        <li>Adhering to production schedules and deadlines to meet customer demands and delivery timelines.</li>
+                      </ul>                        
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </div> 
+  </div>
+
+  <!-- Education -->
+  <div class="container-md" id="education-title">
+    <h3>Education</h3>
+    <div class="row">
+      <div class="col-md-5 gradient-background rounded-pill">
+        <hr>
+      </div>
+    </div>
+    <div class="row table-responsive my-2" id="education-table-container" style="display: none;">
+      <table class="table table-stripped table-hover table-condensed">
+        <thead>
+          <tr>
+            <th class="">Month & Year</th>
+            <th class="">Disciplain</th>
+            <th class="">University Affiliated</th>
+            <th class="">College Name</th>
+            <th class="text-center">Percentage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Aug 2011 - Jun 2014</td>
+            <td>Master of Engineering in VLSI Design</td>
+            <td>Anna University - Chennai</td>
+            <td>Gnanamani College Of Technology</td>
+            <td class="text-center">71</td>
+          </tr>
+          <tr>
+            <td>Jul 2007 - Apr 2010</td>
+            <td>Bachelor of Engineering in Electronics and Communication</td>
+            <td>Anna University - Chennai</td>
+            <td>Muthayammal Engineering College</td>
+            <td class="text-center">72</td>
+          </tr>
+          <tr>
+            <td>Jun 2001 - Apr 2004</td>
+            <td>Diploma in Electronics and Communication Engineering (Honours)</td>
+            <td>Directorate of Technical Education - Chennai</td>
+            <td>SCSM Polytechnic College </td>
+            <td class="text-center">92</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Certificates -->
+  <div class="container-md" id="certificates-title">
+    <h3>Certificates</h3>
+    <div class="row">
+      <div class="col-md-4 gradient-background rounded-pill">
+        <hr>
+      </div>
+    </div>
+    <div id="certificates-table-container" style="display: none;">
+      <ul>
+        <!-- Certificates content will be dynamically added here -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+  <!-- fontawesome JavaScript for Icons -->
+  <script src="https://kit.fontawesome.com/fdd7619334.js" crossorigin="anonymous"></script>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
+ 
